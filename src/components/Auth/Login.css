@@ -1,0 +1,29 @@
+.login_img{
+    width: 100%;
+    mix-blend-mode: multiply;
+    padding: 8rem;
+    animation-name: moveImage;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.login_form{
+    padding: 6rem;
+    padding-top: 25%;
+}
+.input_password_icon input{
+    background: rgb(242, 242, 242);
+}
+.input_email_icon input{
+  background: rgb(242, 242, 242);
+}
+
+@keyframes moveImage {
+    0%   { margin-left:0px; margin-top:0px;}
+  25%  { margin-left:40px; margin-top:20px;}
+  50%  { margin-right: -40px; margin-top:-20px;}
+  75%  { margin-left:40px; margin-top:20px;}
+  100% { margin-left:0px; margin-top:0px;}
+}
